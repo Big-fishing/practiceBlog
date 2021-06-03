@@ -14,7 +14,7 @@ p{word-break: break-all;}
 
 body{
     font-size: 14px;
-    background: #e7ebee url(../imgs/bj.jpg) no-repeat top center;
+    background: #e7ebee url(../imgs/bj.jpg) no-repeat top center !important;
 }
 
 .fl{ float:left; }
