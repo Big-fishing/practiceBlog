@@ -60,8 +60,8 @@ export default class HomeLeft extends Component {
                     </ul>
                 </div>
                 <div id='text-introduce'>
-                    本网站服务端采用nodeJS koa框架搭建，前端采用React+antd渲染，数据库使用mongodb，源码存放在Github
-                    <a href="https://github.com/Big-fishing" rel="noreferrer" target='_blank'><img src="/imgs/github.jpg" alt="github" /></a>
+                    本网站服务端采用nodeJS koa框架搭建，前端采用React+antd，数据库使用mongodb，客户端渲染，源码存放在Github
+                    <a href="https://github.com/Big-fishing/practiceBlog" rel="noreferrer" target='_blank'><img src="/imgs/github.jpg" alt="github" /></a>
                 </div>
             </div>
         )

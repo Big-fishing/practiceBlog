@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import {Switch,Route,Redirect} from 'react-router-dom'
 import Loadable from '../loadable'
+//components
+import HomeLeft from '../../components/homeLeft'
+import HomeRihgt from '../../components/HomeRihgt'
+import HomeCenterHead from '../../components/homeCenterHead'
 
 import './content.less'
 
-//components
-const HomeLeft = Loadable(()=>import('../../components/homeLeft'))
-const HomeRihgt = Loadable(()=>import('../../components/HomeRihgt'))
-const HomeCenterHead = Loadable(()=>import('../../components/homeCenterHead'))
 // Switch
 const Home = Loadable(()=>import('./home'))
 const Hmtl_css = Loadable(()=>import('./Hmtl_css'))

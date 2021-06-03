@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import {Switch,Route,Redirect} from 'react-router-dom'
 import Loadable from './loadable';
-
+import HomeHeader from '../components/homeHeader'
+import HomeFooter from '../components/homeFooter'
 import './index.less'
 
-const HomeHeader =  Loadable(()=>import('../components/homeHeader'))
 const Content  =  Loadable(()=>import('./content/Content'))
-const HomeFooter =  Loadable(()=>import('../components/homeFooter'))
 
 export default class Index extends Component {
     render() {
