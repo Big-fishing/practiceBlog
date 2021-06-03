@@ -1,0 +1,101 @@
+#search{
+    #search-head{
+        span.ant-input-affix-wrapper{
+          border-radius: 10px;
+        }
+        padding-top: 20px;
+        h2{
+          font-size: 30px;
+          color: #fff;
+          font-family: '思源宋体Bold';
+          text-align: center;  
+        }
+        .ant-input{
+          font-size: 16px;
+          line-height: 30px;
+        }
+        .ant-form{
+          .ant-form-item{
+            margin: 0;
+            padding: 0 5px;
+          }
+        }
+        #search-home{
+          position: absolute;
+          top:0;
+          right:0;
+          color: #fff;
+          height: 50px;
+          border: 0;
+          font-size: 16px;
+          background-color: rgba(0,0,0,.5);
+        }
+        #search-back{
+          position: absolute;
+          top:0;
+          left:0;
+          color: #fff;
+          height: 50px;
+          border: 0;
+          font-size: 16px;
+          background-color: rgba(0,0,0,.5);
+        }
+        #search-home:hover{
+          background-color: rgba(0, 85, 195, 0.8);
+        }
+        #search-back:hover{
+          background-color: rgba(0, 85, 195, 0.8);
+        }
+    }
+    #search-center{
+      padding: 5px;
+      .searchitme{
+        transition: all .3s;
+        padding: 10px;
+        font-size: 15px;
+        background-color: #fff;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        .searchitme-top{
+          display: flex;
+          align-items:center;
+          font-size: 18px;
+          color: #000;
+          img{
+            width: 20%;
+            border-radius: 5px;
+          }
+          p{
+            flex: 1;
+            margin: 0;
+          }
+        }
+        .searchitme-information{
+          display: flex;
+          padding-top: 5px;
+          margin-top: 10px;
+          border-top: solid 1px #eeeeee;
+          span{
+            flex:1;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+          }
+        }
+      }
+      .searchitme:hover{
+        box-shadow: rgb(35 125 201) 0px 2px 20px;
+        transform: translateY(-5px);
+      }
+      .ant-pagination{
+        text-align: center;
+      }
+      #search-text{
+        margin: 10px 0;
+        padding: 0 10px;
+        line-height: 30px;
+        font-size: 14px;
+        background-color: #fff;
+      }
+    }
+}

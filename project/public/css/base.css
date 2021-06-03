@@ -1,0 +1,47 @@
+@charset "utf-8";
+@font-face{
+    font-family:'思源宋体Bold';
+    src: url('../family/SourceHanSerifCN-Bold.ttf') format('truetype');
+}
+*{ touch-action: pan-y; }
+body,div,ul,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,dl,dt,dd{ margin:0; padding:0; }
+ul{ list-style:none; }
+i{ font-style:normal} 
+input,textarea,select{ font-family:inherit; font-weight:inherit; }
+img{ border:0; }body,td,th{ font-size: 14px; }
+a{ text-decoration:none; color:#333; }
+p{word-break: break-all;}
+
+body{
+    font-size: 14px;
+    background: #e7ebee url(../imgs/bj.jpg) no-repeat top center;
+}
+
+.fl{ float:left; }
+.fr{ float:right; }
+.clear::after{ content: ''; display: block; clear:both; }
+.por{ position:relative; }
+.poa{ position:absolute; }
+.center{ width:1230px; margin: 0 auto; }
+
+@media all and (min-width:1230px) {
+    .center{ width:1230px; margin: 0 auto; }
+} 
+
+@media all and (max-width:1230px) {
+    .center{ width:100%; margin: 0 auto; }
+} 
+
+.fadIn {    
+    animation: fade-in;/*动画名称*/  
+    animation-duration: .5s;/*动画持续时间*/  
+    -webkit-animation:fade-in .5s;/*针对webkit内核*/  
+}  
+@keyframes fade-in {  
+    0% {opacity: 0;}/*初始状态 透明度为0*/  
+    20% {opacity: .2;}/*过渡状态 透明度为0*/  
+    40% {opacity: .4;}/*过渡状态 透明度为0*/  
+    60% {opacity: .6;}/*过渡状态 透明度为0*/  
+    80% {opacity: .8;}/*过渡状态 透明度为0*/  
+    100% {opacity: 1;}/*结束状态 透明度为1*/  
+} 
