@@ -52,7 +52,7 @@ export default class Links extends Component {
                         <p>头像：<a href="http://yuxuemei.top/imgs/LOGO.JPG" target="_blank" rel="noopener noreferrer">http://yuxuemei.top/imgs/LOGO.JPG</a></p>
                     </div>
                 </div>
-                <Comments id='home-About'/>
+                <Comments id='home-links'/>
             </div>
         )
     }
