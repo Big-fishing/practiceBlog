@@ -6,7 +6,7 @@
 
 ## 预览
 
-![](imgs/about-img1.png)
+![](imgs/about-img1.jpg)
 
 ![](imgs/about-img2.png)
 
