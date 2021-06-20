@@ -6,9 +6,9 @@
 
 ## 预览
 
-![](imgs/1.png)
+![](imgs/about-img1.png)
 
-![](imgs/2.png)
+![](imgs/about-img2.png)
 
 ## 使用
 
