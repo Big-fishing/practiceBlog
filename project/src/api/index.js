@@ -2,11 +2,8 @@
 import ajax from './ajax';
 
 //设定默认前缀
-// const BASE = '/api/apis' //测试
 const BASE = '/apis' //打包
 
-
-// export const Reqcaptcha = '/api/apis/captcha?time='//测试
 export const Reqcaptcha = '/apis/captcha?time='//打包
 
 //post

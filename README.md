@@ -48,20 +48,3 @@ http_url=http://localhost:5000
 
 7.npm start 启动服务
 
-
-
-
-
-
-
-如果前端要打包的话需要修改project/api.index.js
-
-```javascript
-//const BASE = '/api/apis' //测试
-const BASE = '/apis' //打包
-
-
-//export const Reqcaptcha = '/api/apis/captcha?time='//测试
-export const Reqcaptcha = '/apis/captcha?time='//打包
-```
-
