@@ -11,7 +11,6 @@ const Detailspage = Loadable( ()=>import('./pages/Detailspage/Detailspage') )
 const Search = Loadable( ()=>import('./pages/search/search') )
 const NotFound = Loadable( ()=>import('./pages/NotFound') )
 const Backtop = Loadable( ()=>import('./components/Backtop') )
-const Music = Loadable( ()=>import('./components/Music/Music') )
 
 export default class App extends Component {
     render() {
@@ -51,7 +50,6 @@ export default class App extends Component {
                     <Route component={NotFound} />
                 </Switch>
                 <Backtop/>
-                <Music/>
             </BrowserRouter>
         )
     }
